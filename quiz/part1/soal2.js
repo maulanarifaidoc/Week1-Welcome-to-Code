@@ -22,40 +22,40 @@ switch (bulan){
         namaBulan ="Januari";
         break;
     case 2:
-        namaBulan ==`February`;
+        namaBulan =`February`;
         break;
     case 3:
-        namaBulan == `Maret`;
+        namaBulan = `Maret`;
         break;
     case 4:
-        namaBulan == `April`;
+        namaBulan = `April`;
         break;
     case 5:
-        namaBulan == `Mei`;
+        namaBulan = `Mei`;
         break;
     case 6:
-        namaBulan == `Juni`;
+        namaBulan = `Juni`;
         break;
     case 7:
-        namaBulan == `Juli`;
+        namaBulan = `Juli`;
         break;
     case 8:
-        namaBulan == `Agustus`;
+        namaBulan = `Agustus`;
         break;
     case 9:
-        namaBulan == `September`;
+        namaBulan = `September`;
         break;
     case 10:
-        namaBulan == `Oktober`;
+        namaBulan = `Oktober`;
         break;
     case 11:
-        namaBulan == `November`;
+        namaBulan = `November`;
         break;
     case 12:
-        namaBulan == `Desember`;
+        namaBulan = `Desember`;
         break;
     default:
-        namaBulan == (`Bulan tidak valid`);
+        namaBulan = (`Bulan tidak valid`);
 } 
 
 console.log(`${tanggal} ${namaBulan} ${tahun}`)
