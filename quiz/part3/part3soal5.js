@@ -11,7 +11,7 @@ let input = 5
 // */
 
 let input = 5,
-    input2 = 1;
+    halo = 1;
 
 for(i = 1; i <= input; i++){
     let baris = "";         // untuk menyimpan *
@@ -19,4 +19,12 @@ for(i = 1; i <= input; i++){
         baris += "*";       //tambah bintang
     }
 console.log(baris)          //mencetak bintang tiap baris
+}
+
+for (a = 5; a >=halo; a--){
+    let baris2 = "";
+    for (b = 5; b >=halo; b--){
+        baris2 -= "*"
+    }
+console.log(baris2)
 }
