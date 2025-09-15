@@ -19,7 +19,11 @@
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+//input nilai berupa string
+//proses menjadi peran
+//output
 let nama = "", peran = "";
+
 //code disini gunakan console.log untuk outputnya*/
 
 //input
@@ -27,8 +31,9 @@ let pengenalan = alert("Tulis namamu bro"),
     nama = prompt(""),
     pilihperan = alert("Pilih peran: ksatria, tabib, penyihir")
     peran = prompt("")
-    peran = peran.toLowerCase();// agar ridak mempedulikan huruf besar atau kecil pada input string
+    peran = peran.toLowerCase();// agar tidak mempedulikan huruf besar atau kecil pada input string
 
+//proses menjadi peran
 if (nama == ""){
     console.log(alert("nama wajib diisi"))
 } else if (peran === "ksatria"){
